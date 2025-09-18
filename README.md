@@ -54,11 +54,11 @@ cmake --build .
 
 Run the executable from the command line with required arguments. For example:
 ```
-./CrypticStego --embed --input_image path/to/image.png --output_image path/to/output.png --message "Secret text"
+./CrypticStego --mode embed --in /file/your-inputImageFile --out /files/your-outputImgFile --msg "[Your-Message]" --key key.bin --iv iv.bin
 ```
 or
 ```
-./CrypticStego --extract --input_image path/to/output.png
+./CrypticStego --mode extract --in /files/your-outputImageFile --out /files/yourExtractedFile.txt --key key.bin --iv iv.bin
 ```
 Use `--help` to see all available command-line options:
 ```
@@ -75,6 +75,6 @@ Specify your license here (e.g., MIT License).
 
 ## Author
 
-Your Name — [Github/NVarun](https://github.com/N-VARUN-1)
+[Github/NVarun](https://github.com/N-VARUN-1)
 
 
