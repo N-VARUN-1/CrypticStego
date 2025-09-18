@@ -72,7 +72,6 @@ Contributions are welcome! Feel free to submit issues, fork the repository, and 
 ## License
 
 MIT License 
-Copyright (c) 2025 N_VARUN
 
 ## Author
 
