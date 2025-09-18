@@ -30,3 +30,51 @@ CrypticStego is a cryptographic steganography tool developed in C++ that allows 
 ### Build Instructions
 
 1. Clone the repository:
+```
+git clone https://github.com/yourusername/CrypticStego.git
+cd CrypticStego
+```
+2. Create a build directory and navigate into it:
+```
+mkdir build
+cd build
+```
+3. Generate build files using CMake:
+```
+cmake ..
+```
+4. Build the project:
+```
+cmake --build .
+```
+
+5. After successful build, the executable `CrypticStego` will be available in the build directory.
+
+### Usage
+
+Run the executable from the command line with required arguments. For example:
+```
+./CrypticStego --embed --input_image path/to/image.png --output_image path/to/output.png --message "Secret text"
+```
+or
+```
+./CrypticStego --extract --input_image path/to/output.png
+```
+Use `--help` to see all available command-line options:
+```
+./CrypticStego --help
+```
+
+## Contributing
+
+Contributions are welcome! Feel free to submit issues, fork the repository, and send pull requests.
+
+## License
+
+Specify your license here (e.g., MIT License).
+
+## Author
+
+Your Name — [Github/NVarun](https://github.com/N-VARUN-1)
+
+
