@@ -27,30 +27,9 @@ CrypticStego is a cryptographic steganography tool developed in C++ that allows 
 - OpenCV installed on your system
 - Crypto++ library installed
 
-### Build Instructions
-
-1. Clone the repository:
-```
-git clone https://github.com/yourusername/CrypticStego.git
-cd CrypticStego
-```
-2. Create a build directory and navigate into it:
-```
-mkdir build
-cd build
-```
-3. Generate build files using CMake:
-```
-cmake ..
-```
-4. Build the project:
-```
-cmake --build .
-```
-
-5. After successful build, the executable `CrypticStego` will be available in the build directory.
-
 ### Usage
+
+***Download the Executable file in the [Releases](../../releases), before using the tool***
 
 Run the executable from the command line with required arguments. For example:
 ```
